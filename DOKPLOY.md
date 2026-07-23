@@ -18,3 +18,5 @@ Useful environment variables:
 - `RTC_CONFIG=false`
 
 For deployments behind a reverse proxy, keep WebSocket support enabled in the proxy. File transfers use WebRTC when available and can use the WebSocket fallback if `WS_FALLBACK=true`.
+
+The included `docker-compose.yml` intentionally uses `expose` instead of `ports` so Dokploy can attach its proxy without colliding with another app already using host port `3000`.
