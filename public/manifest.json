@@ -1,6 +1,6 @@
 {
-    "name": "PairDrop",
-    "short_name": "PairDrop",
+    "name": "CareShare",
+    "short_name": "CareShare",
     "icons": [
         {
             "src": "images/android-chrome-192x192.png",
@@ -28,7 +28,7 @@
     "background_color": "#efefef",
     "start_url": "./",
     "display": "standalone",
-    "theme_color": "#3367d6",
+    "theme_color": "#0f9f8f",
     "screenshots" : [
         {
             "src": "images/pairdrop_screenshot_mobile_1.png",

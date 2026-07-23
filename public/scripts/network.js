@@ -225,7 +225,7 @@ class ServerConnection {
         sessionStorage.setItem('peer_id', msg.peerId);
         sessionStorage.setItem('peer_id_hash', msg.peerIdHash);
 
-        // Add peerId to localStorage to mark it for other PairDrop tabs on the same browser
+        // Add peerId to localStorage to mark it for other CareShare tabs on the same browser
         BrowserTabsConnector
             .addPeerIdToLocalStorage()
             .then(peerId => {
@@ -1095,7 +1095,7 @@ class PeersManager {
             console.log('WSPeer left:', message.peerId);
         }
         if (message.disconnect === true) {
-            // if user actively disconnected from PairDrop server, disconnect all peer to peer connections immediately
+            // if user actively disconnected from CareShare server, disconnect all peer to peer connections immediately
             this._disconnectOrRemoveRoomTypeByPeerId(message.peerId, message.roomType);
 
             // If no peers are connected anymore, we can safely assume that no other tab on the same browser is connected:

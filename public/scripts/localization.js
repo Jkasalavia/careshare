@@ -215,7 +215,7 @@ class Localization {
     }
 
     static logHelpCall() {
-        console.log("Help translating PairDrop: https://hosted.weblate.org/engage/pairdrop/");
+        console.log("Help translating CareShare.");
     }
 
     static logHelpCallKey(key, attr) {
@@ -225,7 +225,7 @@ class Localization {
             ? key
             : `${key}_${attr}`;
 
-        console.warn(`Translate this string here: https://hosted.weblate.org/browse/pairdrop/pairdrop-spa/${locale}/?q=${keyComplete}`);
+        console.warn(`Missing CareShare translation for ${locale}: ${keyComplete}`);
     }
 
     static escapeHTML(unsafeText) {

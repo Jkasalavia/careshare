@@ -1,14 +1,14 @@
 {
-  "name": "pairdrop",
+  "name": "careshare",
   "version": "1.11.2",
   "type": "module",
-  "description": "",
+  "description": "CareShare local file sharing app",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
     "start:prod": "node server/index.js --rate-limit --auto-restart"
   },
-  "author": "",
+  "author": "CareShare",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",

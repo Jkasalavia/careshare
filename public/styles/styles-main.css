@@ -930,11 +930,11 @@ x-peers:empty~x-instructions {
 /* Default colors */
 body {
     /* Constant colors */
-    --primary-color: #4285f4;
-    --paired-device-color: #00a69c;
-    --public-room-color: #ed9d01;
+    --primary-color: #0f9f8f;
+    --paired-device-color: #34b56f;
+    --public-room-color: #f6b93b;
     --accent-color: var(--primary-color);
-    --ws-peer-color: #ff6b6b;
+    --ws-peer-color: #ff6f61;
     --btn-disabled-color: #5B5B66;
 
     /* shadows */

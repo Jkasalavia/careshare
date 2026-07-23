@@ -1,4 +1,4 @@
-class PairDrop {
+class CareShare {
 
     constructor() {
         this.$headerNotificationBtn = $('notification');
@@ -238,4 +238,4 @@ class PairDrop {
     }
 }
 
-const pairDrop = new PairDrop();
+const careShare = new CareShare();
